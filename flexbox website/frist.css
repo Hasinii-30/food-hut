@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.landing{
+  background-image:url('pexels-rama-khandkar-2272847.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: beige;
+
+}
+header a{
+    text-decoration: none;
+    color: whitesmoke;
+    min-width: 120px;
+}
+header{
+    display:flex;
+     padding: 1em;
+     flex-wrap: wrap;
+     row-gap: 2px;
+}
+#logo{
+    flex: 3;
+    font-size: larger;
+    min-width: 220px;
+}
+nav{
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    flex:1;
+}
+nav a:hover{
+    color: green;
+}
+
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: center;
+    padding: 20px;
+}
+.tagline1{
+ color: rgb(241, 16, 16);
+ font-size: 40px;
+ font-weight: bold;
+ margin-bottom: 10px;
+}
+.tagline2{
+    color: yellow;
+    margin-top: 20px;
+}
+.maintext div{
+    margin-top:20px;
+}
+.maintext button{
+    width:15vw;
+    font-weight: bolder;
+    background-color: yellow;
+    margin-top: 10px;
+    border-radius:10px;
+    padding:10px;
+}
+.menu{
+    display: grid;
+    background:rgb(49, 48, 48);
+    color: whitesmoke;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+}
+#menuheading,#locheading{
+    background-color:rgb(49, 48, 48);
+    font-size:2.5em;
+    color: rgb(214, 24, 24);
+    display: flex;
+    justify-content: center;
+}
+.menu th{
+    color: rgb(29, 139, 29);
+    font-size: 1.8em;
+}
+table{
+    width: 100%;
+    padding:10px;
+}
+.menu tr{
+    display: flex;
+    justify-items: center;
+    margin-top: 10px;
+}
+.menu td:nth-child(1){
+    justify-self: left;
+    flex:1;
+}
+.menu td :nth-child(2){
+    justify-self: right;
+}
+.maincourse{
+    grid-row: span 2;
+}
+.locations{
+    background-color:rgb(49, 48, 48);
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.locations h2{
+    color:rgb(29, 139, 29) ;
+    margin-bottom: 10px;
+}
+.locations div{
+    flex:1;
+    padding:1px;
+    min-width: 220px;
+}
+footer{
+    background-color:black;
+    color: whitesmoke;
+    padding:0.1px;
+}
